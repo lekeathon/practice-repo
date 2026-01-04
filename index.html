@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--linking my script in the head right before the closing statement for modern day best practice and using the defer 
+    link with it is recomemded -->
+    <script src="main.js" defer></script>
+</head>
+<!--i should be looking up the different type of types i can use in html forms -->
+
+<body>
+    <h1>Hello, World! im learning how to do forms bear with me</h1>
+    <h2>hijacking google search lol</h2>
+    <!-- i also did this by muself without looking back at the notes again just like youtube the name=""
+     needs to be implemented fir it to all work properly and i guess its diffefnetly for each site so i have 
+     to double check im still new at this lol-->
+    <form action="https:www.google.com/search">
+        <label for="google">google search</label>
+        <!-- also if i just type in inp itll give me what i need for the input-->
+        <input type="text" id="google" placeholder="google search" name="q">
+        <button type="submit">submit</button>
+        <!-- i just added a checkbox within this form and i can also add if it starts off already checked or not
+         by adding checked within the input tag zone in my input-->
+        <input type="checkbox" id="check" name="checks">
+        <label for="check">check me lol</label>
+    </form>
+    <h2>hijacking youtube search lol</h2>
+    <!--im learning and getting better ive successfully did this by myself one thing to note the name=""
+    has to be implemented or elseit wont work properly and thre https: needs to have the search at the end 
+    of it i presume idk ill work on it further-->
+    <form action="https:youtube.com/search">
+        <label for="youtube">youtube search</label>
+        <input type="text" id="youtube" placeholder="search" name="search_query">
+        <button type="submit">submit</button>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Choose your favorite fruit:</legend>
+            <input type="radio" id="apple" name="fruit" value="apple">
+            <label for="apple">Apple</label><br>
+            <input type="radio" id="banana" name="fruit" value="banana">
+            <label for="banana">Banana</label><br>
+            <input type="radio" id="cherry" name="fruit" value="cherry">
+            <label for="cherry">Cherry</label>
+    </form>
+    <h2>hijacking from reddit</h2>
+    <form action="https:reddit.com/search">
+        <label for="reddit">reddit search</label>
+        <input type="text" id="reddit" placeholder="reddit placeholder" name="q">
+        <button type="submit">submit</button>
+        <input type="checkbox" id="checkreddit" name="checkreddit">
+        <label for="checkreddit">check me</label>
+    </form>
+</body>
+
+</html>
