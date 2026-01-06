@@ -38,6 +38,8 @@
     </form>
     <form>
         <fieldset>
+            <!--if i do a group of radio buttons i need to have them all share the name attribute in them and dont forget to match the for="" and id="" together to add my label
+            and input together and i need to add a value="" thats whats gonna be sent to the server as well-->
             <legend>Choose your favorite fruit:</legend>
             <input type="radio" id="apple" name="fruit" value="apple">
             <label for="apple">Apple</label><br>
@@ -45,7 +47,9 @@
             <label for="banana">Banana</label><br>
             <input type="radio" id="cherry" name="fruit" value="cherry">
             <label for="cherry">Cherry</label>
+        </fieldset>
     </form>
+
     <h2>hijacking from reddit</h2>
     <form action="https:reddit.com/search">
         <label for="reddit">reddit search</label>
@@ -54,6 +58,18 @@
         <input type="checkbox" id="checkreddit" name="checkreddit">
         <label for="checkreddit">check me</label>
     </form>
+    <h2>select dropdown menu</h2>
+    <!-- this is a select dropdown menu using the select tag -->
+    <label for="jl">choose a hero</label>
+    <select id="jl" name="justice league">
+        <option value="" disabled selected>Select your option</option>
+        <option value="superman">superman</option>
+        <option value="batman">batman</option>
+        <option value="wonderwoman">wonderwoman</option>
+        <option value="flash">flash</option>
+        <option value="aquaman">aquaman</option>
+        <option value="cyborg">cyborg</option>
+    </select>
 </body>
 
 </html>
