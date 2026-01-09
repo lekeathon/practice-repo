@@ -86,6 +86,43 @@
         <input type="password" name="password" id="password" placeholder="Password" minlength="8" required> <br>
         <button type="submit">submit</button>
     </form>
+    <hr>
+    <h1>Race Registration!</h1>
+    <form>
+        <label for="first">First Name:</label>
+        <input type="text" name="f-name" id="first" placeholder="first name" required>
+        <label for="last">Last Name:</label>
+        <input type="text" name="l-name" id="last" placeholder="last name" required>
+        <br>
+        <h2>Select a Race:</h2> <br>
+        <input type="radio" name="race" id="5k" value="5k">
+        <label for="5k">Funn Run 5K</label> <br>
+        <input type="radio" name="race" id="half" value="half">
+        <label for="half">Half Marathon</label> <br>
+        <input type="radio" name="race" id="full" value="full">
+        <label for="full">Full Marathon</label> <br>
+
+        <label for="email1">Email:</label>
+        <input type="email" name="email" id="email1" placeholder="email" required>
+        <label for="password1">Password:</label>
+        <input type="password" name="password" id="password1" placeholder="password" required>
+        <br>
+        <label for="division">Select age group</label>
+        <select name="division" id="division">
+            <option value="" disabled selected>Select your age group</option>
+            <option value="kids">Under 18</option>
+            <option value="youngteens">18-30</option>
+            <option value="adults">31-50</option>
+            <option value="seniors">51 and above</option>
+        </select>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+
+
+
+
 </body>
+
 
 </html>
