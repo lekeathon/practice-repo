@@ -1,0 +1,4 @@
+/Users/youruser/path/to/repo1
+/Users/youruser/path/to/repo2
+
+# Use absolute paths, one per line. Save as .pull_repos in the same folder as the script.
