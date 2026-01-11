@@ -3,4 +3,6 @@
 
     some commonly used css stuff will be text-align, font-weight, text-decoration, line-height, letter-spacing, etc.
     i select all classes with a ., and all id's with a #
+    if i wanna select multiple elements i can separate them with a comma
+    to select child elements i can use a space between the parent and child selectors
 */
