@@ -7,4 +7,5 @@
     to select child elements i can use a space between the parent and child selectors
     to select direct child elements i can use a > between the parent and child selectors
     to select elements with a specific attribute i can use [attribute=value]
+    pseudo-classes can be selected with a : before the pseudo-class name, like :hover or :first-child 
 */
