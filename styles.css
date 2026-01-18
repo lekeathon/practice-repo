@@ -8,4 +8,25 @@
     to select direct child elements i can use a > between the parent and child selectors
     to select elements with a specific attribute i can use [attribute=value]
     pseudo-classes can be selected with a : before the pseudo-class name, like :hover or :first-child 
+    the important rule can be used to override other styles by adding !important after the value
 */
+
+
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: inline-block;
+    border: 4px solid green;
+    margin: 6px;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+    border: 4px solid blue;
+    margin: 6px;
+}
