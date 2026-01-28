@@ -9,6 +9,8 @@
     to select elements with a specific attribute i can use [attribute=value]
     pseudo-classes can be selected with a : before the pseudo-class name, like :hover or :first-child 
     the important rule can be used to override other styles by adding !important after the value
+    justify content is along the main axis, align items is along the cross axis
+    align-content is for multi-line flex containers and controls the spacing between lines
 */
 
 
@@ -35,4 +37,5 @@
     height: 500px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
