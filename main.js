@@ -46,7 +46,15 @@ if (guess === 'q') {
     console.log("You're garbage ass quitting lol")
 }*/
 
-let maximum = parseInt(prompt('Enter a maximum number'));
+
+
+
+
+
+
+
+
+/*let maximum = parseInt(prompt('Enter a maximum number'));
 
 while (!maximum) {
     maximum = parseInt(prompt('Enter a valid number'));
@@ -74,4 +82,12 @@ if (guess === 'q') {
     console.log('Game quit.');
 } else {
     console.log(`Congrats! You got it! It took you ${attempts} attempts.`);
+} */
+
+
+
+let names = ['flash', 'superman', 'batman', 'wonder woman', 'aquaman', 'green arrow', 'martian manhunter'];
+
+for (let jla of names) {
+    console.log(jla);
 }
