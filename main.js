@@ -21,3 +21,57 @@ while (guess !== secret) {
 
 alert('you are correct!');
 */
+
+/*let maximum = parseInt(prompt('Enter a maximum number'));
+while (!maximum) {
+    maximum = parseInt(prompt('Enter a valid fucking number dumbass'));
+}
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+
+let guess = parseInt(prompt('Enter your first guess'));
+let attempts = 1;
+
+while (parseInt(guess) !== targetNum) {
+    if (guess === 'q') break;
+    attempts++
+    if (guess > targetNum) {
+        guess = prompt("Too high! Enter a new guess");
+    } else {
+        guess = prompt("Too low! enter a new guess");
+    }
+}
+
+if (guess === 'q') {
+    console.log("You're garbage ass quitting lol")
+}*/
+
+let maximum = parseInt(prompt('Enter a maximum number'));
+
+while (!maximum) {
+    maximum = parseInt(prompt('Enter a valid number'));
+}
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+
+let guess = prompt('Enter your first guess (or q to quit)');
+let attempts = 1;
+
+while (parseInt(guess) !== targetNum) {
+    if (guess === 'q') break;
+
+    attempts++;
+    guess = parseInt(guess);
+
+    if (guess > targetNum) {
+        guess = prompt('Too high! Enter a new guess (or q to quit)');
+    } else {
+        guess = prompt('Too low! Enter a new guess (or q to quit)');
+    }
+}
+
+if (guess === 'q') {
+    console.log('Game quit.');
+} else {
+    console.log(`Congrats! You got it! It took you ${attempts} attempts.`);
+}
