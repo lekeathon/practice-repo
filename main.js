@@ -98,3 +98,9 @@ let name = "Lekeathon";
 for (let nam of name) {
     console.log(nam);
 } */
+
+let arrays = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+for (let are of arrays) {
+    console.log(are);
+}
