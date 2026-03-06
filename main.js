@@ -86,8 +86,15 @@ if (guess === 'q') {
 
 
 
-let names = ['flash', 'superman', 'batman', 'wonder woman', 'aquaman', 'green arrow', 'martian manhunter'];
+/*let names = ['flash', 'superman', 'batman', 'wonder woman', 'aquaman', 'green arrow', 'martian manhunter'];
 
 for (let jla of names) {
     console.log(jla);
 }
+
+
+let name = "Lekeathon";
+
+for (let nam of name) {
+    console.log(nam);
+} */
