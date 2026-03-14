@@ -107,7 +107,14 @@ for (let are of arrays) {
     console.log(are);
 }*/
 
-function messages(message) {
-    console.log(message.toUpperCase());
+let greet = function () {
+    console.log('Hello there!');
 }
-messages('hello world');
+
+function repeat(n, func) {
+    for (let i = 0; i < n; i++) {
+        func();
+    }
+}
+
+repeat(5, greet);
